@@ -15,6 +15,7 @@ docker run --name redis -p 6379:6379 -d redis
 Проверяем, что всё завелось:
 <br/>
 docker exec -it redis sh
+<br/>
 redis-cli
 
 На выходе должны получить:
